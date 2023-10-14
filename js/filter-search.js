@@ -29,3 +29,6 @@
     $search.on("keyup", filter);
   }
 })();
+var $imgs = $("#gallery img");
+var $search = $("#filter-search");
+var cache = [];
